@@ -1,0 +1,318 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Poppins;
+}
+body{
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 24px;
+}
+a, a:hover{
+  text-decoration: none;
+}
+/*header section sode starts here*/
+
+/*menu code starts here*/
+.header{
+  width: 100%;
+
+  background: #F0FFF0;
+}
+.main-menu{
+  width: 100%;
+}
+.main-menu .bg-light{
+  background: transparent !important;
+}
+.main-menu .navbar-light .navbar-brand img{
+  width: 198px;
+}
+.main-menu .navbar-light .nav-item .active{
+  color: #000;
+  font-weight: 700;
+}
+.main-menu .navbar-nav .nav-link{
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px 0px 0px 15px;
+  transition: 1s;
+}
+.main-menu .navbar-nav .nav-link:hover{
+  color: #21B573;
+}
+.main-menu .navbar-nav .nav-item .btn{
+  height: 43px;
+  width: 104px;
+  left: 1201px;
+  top: 25px;
+  border-radius: 33px;
+  padding: 12px, 28px, 12px, 28px;
+  background: #21B573;
+  border: 2px solid #21B573;
+  margin-left: 15px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  transition: 1s;
+}
+.main-menu .navbar-nav .nav-item .btn:hover{
+  background: transparent;
+  color: #21B573;
+  border: 1px solid #21B573;
+}
+/*menu code ends here*/
+
+/*banner code starts here*/
+.banner-section{
+  width: 100%;
+  padding: 80px 0px;
+}
+.banner-section h4{
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FD511A;
+  text-transform: capitalize;
+}
+.banner-section h1{
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.banner-section span{
+  color: #21B573;
+}
+.banner-section p{
+  font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 36px;
+color: #6C6B6B;
+margin-bottom: 30px;
+}
+.banner-section .btn{
+  border-radius: 33px;
+  padding: 15px 20px;;
+  background: #21B573;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  transition: 1s;
+  text-transform: capitalize;
+}
+.banner-section .btn:hover{
+  background: transparent;
+  color: #21B573;
+  border: 1px solid #21B573;
+}
+/*banner ends starts here*/
+/*header section code ends here*/
+
+/*thumb section code starts here*/
+.thumb-section{
+  width: 100%;
+  padding: 80px 0px;
+}
+.thumb-section .inner-feature{
+  width: 100%;
+  background: #F8FFFB;
+  padding: 40px;
+  text-align: center;
+}
+.inner-feature img{
+  width: 66px;
+  height: 85px;
+  margin-bottom: 20px;
+}
+.inner-feature h4{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.inner-feature p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+.inner-feature:hover{
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px
+}
+/*thumb section code ends here*/
+
+/*online courses section code starts here*/
+.online-section{
+  width: 100%;
+  padding: 80px 0px;
+}
+.online-section .title{
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #413960;
+  margin-bottom: 40px;
+}
+.online-section .card{
+  padding: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+.online-section .card .card-body{
+  padding: 1rem 0rem 0rem;
+}
+.online-section .card h5{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+}
+.online-section .card p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+.online-section .card .btn{
+  background: #21B573;
+  border: 2px solid #21B573;
+  border-radius: 33px;
+  margin-bottom: 20px;
+  transition: 1s;
+}
+.online-section .card .btn:hover{
+  background: transparent;
+  color: #21B573;
+  border: 1px solid #21B573;
+}
+.online-section .card .icons{
+   font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #585859;
+}
+.online-section .card .icons .fa{
+  margin-right: 3px;
+}
+.online-section .card .right{
+  text-align: right;
+}
+/*online courses section code ends here*/
+
+/*testimonial section code starts here*/
+.testimonial{
+  width: 100%;
+  padding: 25px 0px 80px;
+}
+.testimonial .tittle{
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #413960;
+  margin-bottom: 60px;
+}
+.testimonial .flex-shrink-0{
+  width: 120px;
+  height: 120px;
+}
+.testimonial p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  margin-left: 50px;
+}
+/*testi monial section code starts here*/
+
+/*footer section code starts here*/
+.footer-section{
+  width: 100%;
+  padding: 80px 0px 0px;
+  background: #282531;
+}
+.footer-section p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.footer-section ul li{
+  list-style-type: none;
+}
+.footer-section h4{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+
+}
+.footer-section ul{
+  padding: 0px;
+}
+.footer-section ul li a{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.footer-section .last{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #CDCDCD;
+  text-align: center;
+  margin-top: 50px;
+}
+/*footer section code ends here*/
